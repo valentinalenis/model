@@ -11,10 +11,6 @@
     "name": "Nico Rehwaldt",
     "url": "https://github.com/nikku"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nikku/bpmn-js-extension-demo"
-  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.3.4",
