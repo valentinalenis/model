@@ -8,8 +8,12 @@
   },
   "private": true,
   "author": {
-    "name": "Nico Rehwaldt",
-    "url": "https://github.com/nikku"
+    "name": "Valentina Lenis",
+    "url": "https://github.com/valentinalenis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentinalenis/model"
   },
   "license": "MIT",
   "devDependencies": {
