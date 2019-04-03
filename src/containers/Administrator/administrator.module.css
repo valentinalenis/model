@@ -1,0 +1,19 @@
+.greyBackground{
+    background: #e6e6e6;
+}
+.fullHeight{
+    height: calc(100% - 92px);
+}
+.modal{
+    padding: 5px;
+}
+.modal * {
+    width: fit-content;
+    margin: auto;
+}
+.modal > h1 {
+    margin-bottom: 15px;
+}
+.modal > p {
+    margin-bottom: 5px;
+}

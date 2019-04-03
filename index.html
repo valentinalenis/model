@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>bpmn-js extension-demo</title>
+
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <div>
+        <nav className="navBar centerVertical">
+          <ol className="centerVertical">
+            <hr/>
+            <li id="graph" className="marginAuto">
+              <Link className="logo graph" to="/graph" id="graph">
+                <span className="logo graph"></span>
+                <span className="text">Graficador</span>
+              </Link>
+            </li>
+            <hr/>
+            <li id="users" className="marginAuto">
+              <Link className="logo admin" to="/admin" id="admin">
+                <span className="logo admin"></span>
+                <span className="text">Administrador</span>
+              </Link>
+            </li>
+            <hr/>
+          </ol>
+        </nav>
+        <Route path="/admin" component={MainMenu}/>
+        <Route path="/admin/model" exact component={Administrator} />
+        <Route path="/graph" exact component={Graph} />
+      </div>
+  <div class="modeler-parent">
+    <div id="modeler-container"></div>
+    <div id="properties-container"></div>
+  </div>
+
+  <footer>
+    <a id="download-diagram" href="#">Download Diagram</a>
+  </footer>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
